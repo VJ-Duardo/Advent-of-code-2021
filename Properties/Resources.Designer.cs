@@ -170,5 +170,14 @@ namespace aoc.Properties {
                 return ResourceManager.GetString("day1_input", resourceCulture);
             }
         }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to .
+        /// </summary>
+        internal static string day2_input {
+            get {
+                return ResourceManager.GetString("day2_input", resourceCulture);
+            }
+        }
     }
 }

@@ -3,6 +3,7 @@
   <PropertyGroup>
     <OutputType>Exe</OutputType>
     <TargetFramework>net5.0</TargetFramework>
+    <StartupObject>aoc.Day2.Dive</StartupObject>
   </PropertyGroup>
 
   <ItemGroup>
