@@ -172,11 +172,77 @@ namespace aoc.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to .
+        ///   Looks up a localized string similar to forward 8
+        ///forward 3
+        ///down 8
+        ///forward 4
+        ///down 2
+        ///down 4
+        ///down 8
+        ///down 4
+        ///down 7
+        ///up 4
+        ///down 6
+        ///down 2
+        ///forward 7
+        ///down 5
+        ///down 7
+        ///down 5
+        ///forward 8
+        ///forward 4
+        ///forward 3
+        ///down 4
+        ///forward 2
+        ///up 3
+        ///up 6
+        ///forward 7
+        ///down 4
+        ///down 2
+        ///forward 7
+        ///up 3
+        ///forward 8
+        ///down 4
+        ///down 6
+        ///forward 3
+        ///forward 9
+        ///down 9
+        ///down 6
+        ///forward 8
+        ///up 8
+        ///forward 3
+        ///down 8
+        ///down 4
+        ///forward 7
+        ///forward 3
+        ///up 9
+        ///down 8
+        ///forward 7
+        ///forward 5
+        ///forward 3
+        ///down 1
+        ///down 4
+        ///forward 1
+        ///down 6
+        ///forward 9
+        ///up 2
+        ///forward 3
+        ///down 2
+        ///down 1
+        ///up 5
+        ///dow [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string day2_input {
             get {
                 return ResourceManager.GetString("day2_input", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to .
+        /// </summary>
+        internal static string day3_input {
+            get {
+                return ResourceManager.GetString("day3_input", resourceCulture);
             }
         }
     }
