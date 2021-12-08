@@ -309,21 +309,46 @@ namespace aoc.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 0,9 -&gt; 5,9
-        ///8,0 -&gt; 0,8
-        ///9,4 -&gt; 3,4
-        ///2,2 -&gt; 2,1
-        ///7,0 -&gt; 7,4
-        ///6,4 -&gt; 2,0
-        ///0,9 -&gt; 2,9
-        ///3,4 -&gt; 1,4
-        ///0,0 -&gt; 8,8
-        ///5,5 -&gt; 8,2
-        ///.
+        ///   Looks up a localized string similar to 959,103 -&gt; 139,923
+        ///899,63 -&gt; 899,53
+        ///591,871 -&gt; 364,644
+        ///739,913 -&gt; 310,484
+        ///460,309 -&gt; 460,705
+        ///351,389 -&gt; 351,837
+        ///420,55 -&gt; 420,541
+        ///916,520 -&gt; 382,520
+        ///136,604 -&gt; 295,604
+        ///343,59 -&gt; 142,59
+        ///951,206 -&gt; 806,206
+        ///984,950 -&gt; 61,27
+        ///739,388 -&gt; 988,388
+        ///374,370 -&gt; 644,370
+        ///403,504 -&gt; 798,899
+        ///943,535 -&gt; 229,535
+        ///149,227 -&gt; 583,661
+        ///62,126 -&gt; 62,352
+        ///131,391 -&gt; 131,717
+        ///254,944 -&gt; 254,220
+        ///572,111 -&gt; 572,47
+        ///336,249 -&gt; 830,743
+        ///898,858 -&gt; 203,163
+        ///203,320 -&gt; 825,942
+        ///19,318 -&gt; 19,120
+        ///740,432 -&gt; 740,39
+        ///591,3 [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string day5_input {
             get {
                 return ResourceManager.GetString("day5_input", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to .
+        /// </summary>
+        internal static string day6_input {
+            get {
+                return ResourceManager.GetString("day6_input", resourceCulture);
             }
         }
     }
