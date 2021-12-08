@@ -3,7 +3,7 @@
   <PropertyGroup>
     <OutputType>Exe</OutputType>
     <TargetFramework>net6.0</TargetFramework>
-    <StartupObject>aoc.Day4.Bingo</StartupObject>
+    <StartupObject>aoc.Day5.Hydrothermal</StartupObject>
   </PropertyGroup>
 
   <ItemGroup>
