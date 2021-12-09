@@ -2,40 +2,41 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace aoc.Day6
 {
     class Lanternfish
     {
+        static readonly Dictionary<int, long> cache = new();
 
         static void Main()
         {
             List<int> fish = Array.ConvertAll(Resources.day6_input.Split(","), s => Int32.Parse(s)).ToList<int>();
 
-            Console.WriteLine(MakeFish(fish, 80));
+            long sum = 0;
+            foreach(int f in fish)
+            {
+                sum += MakeFish(256 - f);
+            }
+            Console.WriteLine(sum+fish.Count);
         }
 
 
-        static int MakeFish(List<int> fish, int days)
+        static long MakeFish(int days)
         {
-            for (int i=0; i < days; i++)
+            if (cache.TryGetValue(days, out long val))
             {
-                for (int j=0; j < fish.Count; j++)
-                {
-                    if (fish[j] == 0)
-                    {
-                        fish[j] = 6;
-                        fish.Add(9);
-                    } else
-                    {
-                        fish[j]--;
-                    }
-                }
+                return val;
             }
 
-            return fish.Count;
+            long sum = 0;
+            for (int i = 0; i < Math.Ceiling((double)days / 7); i++)
+            {
+                sum++;
+                sum += MakeFish(((days - i * 7)-9));
+            }
+            cache.Add(days, sum);
+            return sum;
         }
 
     }
