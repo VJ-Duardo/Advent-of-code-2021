@@ -353,11 +353,20 @@ namespace aoc.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to .
+        ///   Looks up a localized string similar to 1101,1,29,67,1102,0,1,65,1008,65,35,66,1005,66,28,1,67,65,20,4,0,1001,65,1,65,1106,0,8,99,35,67,101,99,105,32,110,39,101,115,116,32,112,97,115,32,117,110,101,32,105,110,116,99,111,100,101,32,112,114,111,103,114,97,109,10,78,78,1006,298,320,1021,308,639,76,65,531,302,936,125,502,481,793,369,213,25,158,1423,1387,996,519,138,16,1348,1390,957,24,67,126,35,576,333,788,1707,845,278,732,512,1187,1203,153,1126,15,297,200,43,454,901,176,994,1268,1833,195,1,1705,373,175,417,410,511,63,244,136,552,433,8,347,546,1167,8 [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string day7_input {
             get {
                 return ResourceManager.GetString("day7_input", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to .
+        /// </summary>
+        internal static string day8_input {
+            get {
+                return ResourceManager.GetString("day8_input", resourceCulture);
             }
         }
     }

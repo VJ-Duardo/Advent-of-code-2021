@@ -3,7 +3,7 @@
   <PropertyGroup>
     <OutputType>Exe</OutputType>
     <TargetFramework>net6.0</TargetFramework>
-    <StartupObject>aoc.Day7.Crabs</StartupObject>
+    <StartupObject>aoc.Day8.Segments</StartupObject>
   </PropertyGroup>
 
   <ItemGroup>

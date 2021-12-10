@@ -139,4 +139,7 @@
   <data name="day7_input" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Day7\input.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
   </data>
+  <data name="day8_input" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Day8\input.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
 </root>
