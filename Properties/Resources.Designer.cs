@@ -186,11 +186,29 @@ namespace aoc.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to .
+        ///   Looks up a localized string similar to 4781623888
+        ///1784156114
+        ///3265645122
+        ///4371551414
+        ///3377154886
+        ///7882314455
+        ///6421348681
+        ///7175424287
+        ///5488242184
+        ///2448568261.
         /// </summary>
         internal static string day11_input {
             get {
                 return ResourceManager.GetString("day11_input", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to .
+        /// </summary>
+        internal static string day12_input {
+            get {
+                return ResourceManager.GetString("day12_input", resourceCulture);
             }
         }
         
