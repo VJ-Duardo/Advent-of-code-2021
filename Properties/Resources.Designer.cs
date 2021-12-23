@@ -19,7 +19,7 @@ namespace aoc.Properties {
     // class via a tool like ResGen or Visual Studio.
     // To add or remove a member, edit your .ResX file then rerun ResGen
     // with the /str option, or rebuild your VS project.
-    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "17.0.0.0")]
+    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "16.0.0.0")]
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
     internal class Resources {
@@ -172,11 +172,25 @@ namespace aoc.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to .
+        ///   Looks up a localized string similar to {{&lt;{{{{([{[([[()&lt;&gt;]{&lt;&gt;{}}]&lt;([]())(()&lt;&gt;)&gt;)((({}())[()[]])&lt;&lt;[][]&gt;[{}[]]&gt;)]{{(&lt;{}&lt;&gt;&gt;{&lt;&gt;&lt;&gt;}]([&lt;&gt;[]]&lt;
+        ///[(&lt;{{[{(&lt;({{&lt;&lt;[]()&gt;&lt;&lt;&gt;{}&gt;&gt;([&lt;&gt;[]]{&lt;&gt;&lt;&gt;})}})&gt;)}]}}&gt;[{(&lt;{({[{[[({}())((){})]({{}[]})]&lt;&lt;[&lt;&gt;{}]([][])&gt;({&lt;&gt;()}
+        ///(({&lt;{[{({(([[([]())({}())]]({[[]{}]([][]))&lt;((){})&lt;{}&lt;&gt;&gt;&gt;))[(([&lt;&gt;[]]&lt;[]&gt;)(([]{}){{}{}}))])})[({&lt;[{
+        ///([{{[([&lt;({&lt;&lt;&lt;([]())[()[]]&gt;{&lt;()[]&gt;[[]()]}&gt;[{&lt;[]{}&gt;&lt;[]&gt;&gt;{&lt;&lt;&gt;()&gt;{[]()}}]&gt;[[[[[]{}]([]&lt;&gt;)]&lt;{&lt;&gt;{}}
+        ///[[((&lt;({&lt;(&lt;{&lt;&lt;{{}()}{[][]}&gt;[((){})]&gt;}&gt;{((&lt;({}&lt;&gt;)&lt;{}()&gt;&gt;[[&lt;&gt;()]])&lt;&lt;&lt;[][]&gt;&lt;&lt;&gt;[]&gt;&gt;{&lt;{}[]&gt;(&lt;&gt;())}&gt;)&lt;{[[{
+        ///[{&lt;{{{{&lt;([{[ [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string day10_input {
             get {
                 return ResourceManager.GetString("day10_input", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to .
+        /// </summary>
+        internal static string day11_input {
+            get {
+                return ResourceManager.GetString("day11_input", resourceCulture);
             }
         }
         

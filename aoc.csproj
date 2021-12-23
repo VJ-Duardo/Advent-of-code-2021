@@ -3,7 +3,7 @@
   <PropertyGroup>
     <OutputType>Exe</OutputType>
     <TargetFramework>net6.0</TargetFramework>
-    <StartupObject>aoc.Day10.Syntax</StartupObject>
+    <StartupObject>aoc.Day11.Octopus</StartupObject>
   </PropertyGroup>
 
   <ItemGroup>
